@@ -1,3 +1,4 @@
+
 <center> <h1>Pokemon/Dictionary Warmup</h1> </center>
 
 ![Pokeball](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvFguv_4hYhwny0d7KdBcFYHYCZ0j2uEBtr3aYmJHqNKecqEsi&usqp=CAU)
@@ -123,18 +124,14 @@ In the cell below, set the variable `pokemon_total` to the number of keys in the
 
 ### Simple loop over dictionary
 
-Now let's loop over the dictionary and save the top level value to a list called `pokedex`.
+Now let's loop over the dictionary and save the top level value (i.e. everything but the key) to a list called `pokedex`.
+
+Note: This is just an exercise.  `pokedex` will not be used further.
 
 
 ```python
 # Your code here
 ```
-
-#### Sort of a side question:
-
-> The list we just made is the information for every pokemon in the dataset without the names. 
-
-> What is a built in function that allows us to create a list of tuples that "zip" the names and the values together?
 
 
 ```python
