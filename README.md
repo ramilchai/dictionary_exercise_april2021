@@ -1,3 +1,4 @@
+
 <center> <h1>Pokemon/Dictionary Warmup</h1> </center>
 
 ![Pokeball](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvFguv_4hYhwny0d7KdBcFYHYCZ0j2uEBtr3aYmJHqNKecqEsi&usqp=CAU)
@@ -148,24 +149,15 @@ pokemon_total = len(data_keys)
 
 ### Simple loop over dictionary
 
-Now let's loop over the dictionary and save the top level value to a list called `pokedex`.
+Now let's loop over the dictionary and save the top level value (i.e. everything but the key) to a list called `pokedex`.
+
+Note: This is just an exercise.  `pokedex` will not be used further.
 
 
 ```python
 pokedex = []
 for key in data_keys:
     pokedex.append(data[key])
-```
-
-#### Sort of a side question:
-
-> The list we just made is the information for every pokemon in the dataset without the names. 
-
-> What is a built in function that allows us to create a list of tuples that "zip" the names and the values together?
-
-
-```python
-list(zip(data_keys, pokedex))
 ```
 
 ### Let's create a new dictionary called ```joels_pokemon```. 
@@ -223,7 +215,7 @@ plt.title("Joél's pokemon stats");
 ```
 
 
-![png](index_files/index_29_0.png)
+![png](index_files/index_27_0.png)
 
 
 **What if we wanted to sort the graph?**
@@ -242,7 +234,7 @@ plt.title("Joél's pokemon stats");
 ```
 
 
-![png](index_files/index_31_0.png)
+![png](index_files/index_29_0.png)
 
 
 ![](https://gamepress.gg/pokemonmasters/sites/pokemonmasters/files/styles/300h/public/2019-08/pm0153_00_bayleaf_256.ktx.png?itok=Tr7OMsm1)
